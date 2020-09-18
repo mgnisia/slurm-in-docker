@@ -1,5 +1,5 @@
-FROM scidas/slurm.base:19.05.1
-MAINTAINER Michael J. Stealey <stealey@renci.org>
+FROM mgnisia/slurm.base:19.05.1
+
 
 ENV DBD_ADDR=database \
   DBD_HOST=database \

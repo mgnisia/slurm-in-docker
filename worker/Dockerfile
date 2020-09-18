@@ -1,5 +1,5 @@
-FROM scidas/slurm.base:19.05.1
-MAINTAINER Michael J. Stealey <stealey@renci.org>
+FROM mgnisia/slurm.base:19.05.1
+
 
 # install openmpi 3.0.1
 RUN yum -y install \
@@ -18,6 +18,7 @@ RUN yum -y install \
   bzip2 \
   expectk \
   make \
+  vim \
   && wget https://sourceforge.net/projects/lmod/files/Lmod-7.7.tar.bz2 \
   && tar -xjvf Lmod-7.7.tar.bz2
 WORKDIR /Lmod-7.7
