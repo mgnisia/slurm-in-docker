@@ -1,5 +1,4 @@
 FROM krallin/centos-tini:7
-MAINTAINER Michael J. Stealey <stealey@renci.org>
 
 ENV SLURM_VERSION=19.05.1 \
   MUNGE_UID=981 \
